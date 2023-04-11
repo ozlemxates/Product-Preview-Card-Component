@@ -106,11 +106,9 @@ button {
      }
 
  @media (max-width:768px) {
-
     body {
-        width: 70%;
+        width: 80%;
     }
-
     .container-flex {
         display: block;
         margin-right: 20px;
@@ -136,12 +134,37 @@ button {
     .attribution {
         margin-top: 250px;
     }
+ 
  }
 
  @media (max-width:375px) {
-
     body {
-        width: 55%;
+        width: 20%;
+    } 
+    .container-flex {
+        display: block;
+        margin-right: 20px;
     }
-    
+    main {
+        display: grid;
+        grid-template-columns: 1fr;
+}
+    .picture img {
+        border-top-left-radius: 15px;
+        border-bottom-left-radius:0;
+        border-top-right-radius: 15px;
+        border-bottom-right-radius: 0;
+        display: inherit;
+    }
+    .content {
+        border-top-left-radius: 0;
+        border-bottom-left-radius:15px;
+        border-top-right-radius: 0;
+        border-bottom-right-radius: 15px;
+    }
+
+    .attribution {
+        margin-top: 250px;
+    }
+ 
  }
