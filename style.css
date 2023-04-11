@@ -13,6 +13,7 @@
 
 body {
     background-color: hsl(30, 38%, 92%);
+    width: 100%;
 }
 
 .container-flex {
@@ -104,7 +105,11 @@ button {
      color: hsl(228, 45%, 44%);
      }
 
- @media (max-width:700px) {
+ @media (max-width:768px) {
+
+    body {
+        width: 70%;
+    }
 
     .container-flex {
         display: block;
@@ -131,4 +136,12 @@ button {
     .attribution {
         margin-top: 250px;
     }
+ }
+
+ @media (max-width:375px) {
+
+    body {
+        width: 55%;
+    }
+    
  }
